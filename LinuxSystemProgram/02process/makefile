@@ -3,7 +3,7 @@
 .PHONY:clean all
 CC=gcc
 CFLAGS=-Wall -g
-BIN=vfork hello execlp
+BIN=vfork hello execlp daemon
 all:${BIN}
 
 %.o:%.c
