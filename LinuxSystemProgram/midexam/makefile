@@ -1,8 +1,7 @@
-
 .PHONY:clean all
 CC=gcc
-CFLAGS=-Wall -g -std=c99
-BIN=server client server-1 client-1 server-2 client-2
+CFLAGS=-Wall -g
+BIN=exam1 exam2 exam3
 all:${BIN}
 
 %.o:%.c
